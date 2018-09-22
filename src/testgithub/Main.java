@@ -5,6 +5,8 @@
  */
 package testgithub;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author jhonatan
@@ -14,14 +16,10 @@ public class Main {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public void main(String[] args) {
         // TODO code application logic here
-        printX();
-    }
-    
-    private static void printX() {
-        int x = 20;
-        System.console().printf("%d", x);
+        LoginFrame Log = new LoginFrame();
+        Log.main = this;
     }
     
 }
