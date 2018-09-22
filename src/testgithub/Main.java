@@ -16,6 +16,12 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        printX();
+    }
+    
+    private static void printX() {
+        int x = 20;
+        System.console().printf("%d", x);
     }
     
 }
